@@ -1,5 +1,6 @@
 import About from "@/components/about";
 import Canvas from "@/components/Canvas";
+import Projects from "@/components/projects";
 import Separator from "@/components/ui/separator";
 
 export default function Home() {
@@ -9,6 +10,13 @@ export default function Home() {
       <Separator />
 
       <About />
+      <Separator />
+
+      <Projects />
+      <Separator />
+
+      <Separator />
+
       <Separator />
     </>
   );
