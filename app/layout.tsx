@@ -1,5 +1,14 @@
 import type { Metadata } from "next";
+import { Outfit } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import Navbar from "@/components/navbar";
+import Container from "@/components/container";
+import Separator from "@/components/ui/separator";
+
+const outfit = Outfit({
+  weight: "300",
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +22,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`antialiased`}>{children}</body>
+      <body className={`antialiased ${outfit.className}`}>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Container>
+            <Navbar />
+            <Separator />
+            {children}
+          </Container>
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
