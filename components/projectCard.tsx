@@ -38,7 +38,9 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
       {/* Content */}
       <CardContent className="space-y-3 p-4">
-        <h3 className="text-lg leading-tight font-semibold">{project.title}</h3>
+        <h3 className="text-foreground text-lg leading-tight font-semibold">
+          {project.title}
+        </h3>
 
         <p className="text-sm text-neutral-600 dark:text-neutral-400">
           {project.description}
