@@ -4,7 +4,7 @@ const HorizontalLine = ({ className }: { className?: string }) => {
   return (
     <div
       className={cn(
-        "absolute inset-x-0 h-px w-full bg-neutral-300 dark:bg-neutral-800",
+        "absolute inset-x-0 w-full border-t border-neutral-300 dark:border-neutral-800",
         className,
       )}
     />
