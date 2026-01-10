@@ -9,11 +9,11 @@ import WebContainer from "@/components/svgs/technologies/webcontainer";
 
 export const Projects = [
   {
-    img: "/browz.png",
+    img: "/projects/browz.png",
     link: "https://browz.vercel.app",
     title: "Browz",
     description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container. ",
+      "Browz is an AI powered website builder, it generates websites from prompts and shows the preview in a webcontainer.",
     technologies: [
       { name: "React", svg: <React /> },
       { name: "Typescript", svg: <Typescript /> },
@@ -26,24 +26,7 @@ export const Projects = [
     ],
   },
   {
-    img: "/browz.png",
-    link: "https://browz.vercel.app",
-    title: "Browz",
-    description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
-    technologies: [
-      { name: "React", svg: <React /> },
-      { name: "Typescript", svg: <Typescript /> },
-      { name: "Web Containers", svg: <WebContainer /> },
-      { name: "Express", svg: <Express /> },
-      { name: "PostgreSQL", svg: <Postgresql /> },
-      { name: "Prisma", svg: <Prisma /> },
-      { name: "TailwindCSS", svg: <Tailwindcss /> },
-      { name: "Shadcn UI", svg: <ShadcnUI /> },
-    ],
-  },
-  {
-    img: "/browz.png",
+    img: "/projects/browz.png",
     link: "https://browz.vercel.app",
     title: "Browz",
     description:
@@ -60,7 +43,7 @@ export const Projects = [
     ],
   },
   {
-    img: "/browz.png",
+    img: "/projects/browz.png",
     link: "https://browz.vercel.app",
     title: "Browz",
     description:
@@ -77,7 +60,24 @@ export const Projects = [
     ],
   },
   {
-    img: "/browz.png",
+    img: "/projects/browz.png",
+    link: "https://browz.vercel.app",
+    title: "Browz",
+    description:
+      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
+    technologies: [
+      { name: "React", svg: <React /> },
+      { name: "Typescript", svg: <Typescript /> },
+      { name: "Web Containers", svg: <WebContainer /> },
+      { name: "Express", svg: <Express /> },
+      { name: "PostgreSQL", svg: <Postgresql /> },
+      { name: "Prisma", svg: <Prisma /> },
+      { name: "TailwindCSS", svg: <Tailwindcss /> },
+      { name: "Shadcn UI", svg: <ShadcnUI /> },
+    ],
+  },
+  {
+    img: "/projects/browz.png",
     link: "https://browz.vercel.app",
     title: "Browz",
     description:
