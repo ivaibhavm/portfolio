@@ -26,11 +26,11 @@ export const Projects = [
     ],
   },
   {
-    img: "/projects/browz.png",
-    link: "https://browz.vercel.app",
-    title: "Browz",
+    img: "/projects/demo.png",
+    link: "",
+    title: "Lorem ipsum",
     description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam odit sunt est architecto quaerat. Consequuntur, quidem? Fugiat iusto quaerat nobis libero dicta optio velit, neque ab necessitatibus iure possimus, quasi impedit quidem placeat, est veritatis ex sed voluptas. Nam, recusandae?",
     technologies: [
       { name: "React", svg: <React /> },
       { name: "Typescript", svg: <Typescript /> },
@@ -43,11 +43,11 @@ export const Projects = [
     ],
   },
   {
-    img: "/projects/browz.png",
-    link: "https://browz.vercel.app",
-    title: "Browz",
+    img: "/projects/demo.png",
+    link: "",
+    title: "Lorem ipsum",
     description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam odit sunt est architecto quaerat. Consequuntur, quidem? Fugiat iusto quaerat nobis libero dicta optio velit, neque ab necessitatibus iure possimus, quasi impedit quidem placeat, est veritatis ex sed voluptas. Nam, recusandae?",
     technologies: [
       { name: "React", svg: <React /> },
       { name: "Typescript", svg: <Typescript /> },
@@ -60,11 +60,11 @@ export const Projects = [
     ],
   },
   {
-    img: "/projects/browz.png",
-    link: "https://browz.vercel.app",
-    title: "Browz",
+    img: "/projects/demo.png",
+    link: "",
+    title: "Lorem ipsum",
     description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam odit sunt est architecto quaerat. Consequuntur, quidem? Fugiat iusto quaerat nobis libero dicta optio velit, neque ab necessitatibus iure possimus, quasi impedit quidem placeat, est veritatis ex sed voluptas. Nam, recusandae?",
     technologies: [
       { name: "React", svg: <React /> },
       { name: "Typescript", svg: <Typescript /> },
@@ -77,11 +77,28 @@ export const Projects = [
     ],
   },
   {
-    img: "/projects/browz.png",
-    link: "https://browz.vercel.app",
-    title: "Browz",
+    img: "/projects/demo.png",
+    link: "",
+    title: "Lorem ipsum",
     description:
-      "Randomly stumbled upon web containers and learned how they work. Next thing I thought was to build something related to it and hence built browz, an AI website builder that just spits out code and shows the preview instantly in a container.",
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam odit sunt est architecto quaerat. Consequuntur, quidem? Fugiat iusto quaerat nobis libero dicta optio velit, neque ab necessitatibus iure possimus, quasi impedit quidem placeat, est veritatis ex sed voluptas. Nam, recusandae?",
+    technologies: [
+      { name: "React", svg: <React /> },
+      { name: "Typescript", svg: <Typescript /> },
+      { name: "Web Containers", svg: <WebContainer /> },
+      { name: "Express", svg: <Express /> },
+      { name: "PostgreSQL", svg: <Postgresql /> },
+      { name: "Prisma", svg: <Prisma /> },
+      { name: "TailwindCSS", svg: <Tailwindcss /> },
+      { name: "Shadcn UI", svg: <ShadcnUI /> },
+    ],
+  },
+  {
+    img: "/projects/demo.png",
+    link: "",
+    title: "Lorem ipsum",
+    description:
+      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam odit sunt est architecto quaerat. Consequuntur, quidem? Fugiat iusto quaerat nobis libero dicta optio velit, neque ab necessitatibus iure possimus, quasi impedit quidem placeat, est veritatis ex sed voluptas. Nam, recusandae?",
     technologies: [
       { name: "React", svg: <React /> },
       { name: "Typescript", svg: <Typescript /> },
