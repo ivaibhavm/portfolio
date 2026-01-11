@@ -5,7 +5,7 @@ import HorizontalLine from "./ui/horizontalLine";
 
 const Projects = () => {
   return (
-    <div className="pb-4">
+    <div>
       <div className="py-4 text-xl font-bold">Projects</div>
       <HorizontalLine />
 
