@@ -17,7 +17,7 @@ const About = () => {
           />
         </div>
 
-        <div className="mx-8 flex flex-col justify-between">
+        <div className="mx-8 flex w-full flex-col justify-between">
           <div className="">
             <h1 className="text-2xl font-semibold sm:text-4xl">
               Vaibhav Mishra

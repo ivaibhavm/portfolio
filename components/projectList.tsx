@@ -23,17 +23,31 @@ const ProjectList = ({ limit }: ProjectListProps) => {
         {rows.map((row, rowIndex) => (
           <div key={rowIndex} className="pb-4">
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-              {row.map((project, index) => (
-                <ProjectCard key={index} project={project} />
-              ))}
+              {row.map((project, index) => {
+                const isLastProject =
+                  rowIndex === rows.length - 1 && index === row.length - 1;
 
+                return (
+                  <div key={index}>
+                    <ProjectCard project={project} />
+
+                    {/* Mobile: line after EACH project */}
+                    {!isLastProject && (
+                      <HorizontalLine className="-mx-4 my-4 w-192 sm:hidden" />
+                    )}
+                  </div>
+                );
+              })}
+
+              {/* Desktop vertical separator */}
               {row.length === 2 && (
-                <div className="absolute inset-y-0 left-1/2 bg-neutral-300 sm:w-px dark:bg-neutral-800" />
+                <div className="absolute inset-y-0 left-1/2 border-neutral-300 sm:border-l dark:border-neutral-800" />
               )}
             </div>
 
+            {/* Desktop: line after EACH ROW */}
             {rowIndex !== rows.length - 1 && (
-              <HorizontalLine className="-mx-4 my-4 w-192" />
+              <HorizontalLine className="-mx-4 my-4 hidden w-192 sm:block" />
             )}
           </div>
         ))}
