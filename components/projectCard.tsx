@@ -26,11 +26,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
             alt={project.title}
             width={400}
             height={200}
-            className={cn(
-              "w-full cursor-pointer object-cover",
-              "transition-transform duration-300 ease-out",
-              "group-hover:scale-[1.02]",
-            )}
+            className={cn("w-full cursor-pointer object-cover sm:h-42")}
           />
         </Link>
         <a href={project.link}></a>
@@ -42,7 +38,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           {project.title}
         </h3>
 
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">
+        <p className="line-clamp-3 h-15 text-sm text-neutral-600 dark:text-neutral-400">
           {project.description}
         </p>
 
