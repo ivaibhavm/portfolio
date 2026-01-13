@@ -1,5 +1,5 @@
 import About from "@/components/about";
-import Canvas from "@/components/Canvas";
+import Canvas from "@/components/canvas";
 import Projects from "@/components/projects";
 import Separator from "@/components/ui/separator";
 

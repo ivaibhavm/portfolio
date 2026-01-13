@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ModeToggle } from "./ToggleTheme";
+import { ModeToggle } from "./toggleTheme";
 import Image from "next/image";
 
 const Navbar = () => {
